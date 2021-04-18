@@ -2,8 +2,8 @@ import React from 'react';
 import headerPic from '../../../images/banner/car-hand-wash.jpg';
 const Header = () => {
     return (
-        <section className="bg-light">
-            <main className="container">
+        <section className="bg-light pt-5">
+            <div className="container ">
               <div style={{ height: '600px' }} className="row d-flex justify-content-center align-items-center">
               <div className="col-md-6 ">
                     <h1 className="text-uppercase" >Your car is always <br /> In great hand with us</h1>
@@ -14,7 +14,7 @@ const Header = () => {
                     <img style={{ height: '600px' }} className="img-fluid rounded float-right" src={headerPic} alt="" />
                 </div>
               </div>
-            </main>
+            </div>
         </section>
     );
 };
