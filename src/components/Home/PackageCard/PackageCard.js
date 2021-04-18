@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const PackageCard = ({pkd}) => {
     const {packageName,packageImage,packagePrice,packageDescription}=pkd;
@@ -11,7 +12,10 @@ const PackageCard = ({pkd}) => {
                     <h4>${packagePrice}</h4>
                     <p>{packageDescription}</p>
                 </div>
-
+                <div className="py-3">
+                <Button className="text-center w-50" variant="outline-dark" >Book</Button>
+                </div>
+                
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ const Contact = () => {
                 <div className="section-header text-center text-white mb-5">
                     <h2>Request A Call Back</h2>
                 </div>
-                <div className="col-md-6 mx-auto">
+                <div className="col-md-8 mx-auto">
                     <form action="">
                         <div className="form-group">
                             <input type="text" className="form-control" placeholder="Name *" />
