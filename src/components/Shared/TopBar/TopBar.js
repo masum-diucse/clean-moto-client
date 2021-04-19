@@ -14,7 +14,7 @@ const TopBar = () => {
         <Nav className="ml-auto text-light">
           <span className="mr-5 my-2"><Link to="/" className="link-text" style={{ textDecoration: 'none' }}>Home</Link></span>
           <span className="mr-5 my-2"><a className="link-text" style={{ textDecoration: 'none' }} href="#services" >Services</a></span>
-          <span className="mr-5 my-2"><Link to="/admin" className="link-text" style={{ textDecoration: 'none' }}>Admin</Link></span>
+          <span className="mr-5 my-2"><Link to="/dashboard" className="link-text" style={{ textDecoration: 'none' }}>Dashboard</Link></span>
           <span className="mr-5 my-2"> <Link to="/login" className="link-text" style={{ textDecoration: 'none' }}><Button className="mr-3" variant="outline-dark">Login</Button></Link></span>
         </Nav>
       </Navbar.Collapse>
