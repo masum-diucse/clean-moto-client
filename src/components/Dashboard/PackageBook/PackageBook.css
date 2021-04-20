@@ -1,0 +1,7 @@
+.packageBook-header-container{
+    height:650px;
+    position:relative;
+    background-image: url('../../../images/bg-opacity/car-wash-bg.jpg');
+    background-size: cover;
+    opacity: 0.1;
+}

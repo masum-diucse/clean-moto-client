@@ -26,6 +26,7 @@ import PackageCard from '../PackageCard/PackageCard';
 
 const Packages = () => {
     const [packagesData,setPackagesData]= useState([]);
+    const [isHome,setIsHome]= useState(true);
     useEffect(()=>{
         fetch('http://localhost:5000/getAllPackage')
         .then(res => res.json())
@@ -40,7 +41,7 @@ const Packages = () => {
                 </div>
                 <div className="row my-3 py-3">
                     {
-                        packagesData.map(pkd=><PackageCard pkd={pkd}></PackageCard>)
+                        packagesData.map(pkd=><PackageCard isHome={isHome} pkd={pkd}></PackageCard>)
                     }
                 </div>
         </div>
