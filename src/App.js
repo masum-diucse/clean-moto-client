@@ -15,6 +15,7 @@ import MakeAdmin from './components/Dashboard/MakeAdmin/MakeAdmin';
 import AddPackage from './components/Dashboard/AddPackage/AddPackage';
 import AddReview from './components/Dashboard/AddReview/AddReview';
 import PackageBook from './components/Dashboard/PackageBook/PackageBook';
+import PackageBookingList from './components/Dashboard/PackageBookingList/PackageBookingList';
 
 export const UserContext = createContext();
 
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/book">
            <PackageBook></PackageBook>
+          </Route>
+          <Route path="/bookingList">
+           <PackageBookingList></PackageBookingList>
           </Route>
           <Route path="/login">
             <Login></Login>

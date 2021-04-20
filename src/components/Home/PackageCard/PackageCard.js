@@ -27,7 +27,7 @@ const PackageCard = ({ pkd, isHome,date }) => {
                     (!isHome) &&
                     <div className="py-3">
                         <Button onClick={openModal} className="text-center w-50" variant="outline-dark" >Order</Button>
-                        <PackageBookingForm  packageName={packageName} date={date} modalIsOpen={modalIsOpen} closeModal={closeModal}></PackageBookingForm>
+                        <PackageBookingForm  packageName={packageName} packageImageURL={packageImageURL} date={date} modalIsOpen={modalIsOpen} closeModal={closeModal}></PackageBookingForm>
                     </div>
                 
                 }
