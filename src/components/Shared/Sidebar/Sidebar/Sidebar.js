@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { UserContext } from '../../../../App';
 import AdminSidebar from '../AdminSidebar/AdminSidebar';
 import UserSidebar from '../UserSidebar/UserSidebar';

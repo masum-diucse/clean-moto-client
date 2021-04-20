@@ -23,7 +23,7 @@ const AdminSidebar = () => {
                     </Link>
                 </li>
                 <li>
-                <Link to="/dashboard/manageService" className="text-white">
+                <Link to="/manageService" className="text-white">
                     <span><FontAwesomeIcon icon={faThLarge} />  Manage Service</span>
                     </Link>
                 </li>

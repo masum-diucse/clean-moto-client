@@ -1,28 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import carWash from '../../../images/package-logo/regular-car-wash.png';
-import minivanWash from '../../../images/package-logo/minivan-wash.png';
-import truckWash from '../../../images/package-logo/truck-wash.png';
 import PackageCard from '../PackageCard/PackageCard';
-// const packagesData=[
-//     {
-//         packageName:"Regular Car Wash",
-//         packageImage:carWash,
-//         packagePrice:20,
-//         packageDescription:"Dolor diam justo accusam sanctus rebum diam magna. Ipsum est."
-//     },
-//     {
-//         packageName:"Minivan Wash",
-//         packageImage:minivanWash,
-//         packagePrice:50,
-//         packageDescription:"Dolor diam justo accusam sanctus rebum diam magna. Ipsum est."
-//     },
-//     {
-//         packageName:"Truck Wash",
-//         packageImage:truckWash,
-//         packagePrice:75,
-//         packageDescription:"Dolor diam justo accusam sanctus rebum diam magna. Ipsum est."
-//     }
-// ]
+
 
 const Packages = () => {
     const [packagesData,setPackagesData]= useState([]);

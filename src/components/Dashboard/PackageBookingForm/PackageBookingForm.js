@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import { useForm } from "react-hook-form";
 import jwt_decode from "jwt-decode";
-import { Elements, CardElement } from '@stripe/react-stripe-js';
+import { Elements} from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import SinglePayment from './SinglePayment';
 const stripePromise = loadStripe('pk_test_51Ied5eGYwpjiTa8Sd3gyhxfFafa9skjZaPeGN4PJJthYh48la015HSFeOSweljzhx7x8nn3fyp8sbE9HkfMss8fF00rpFP0bYC');
