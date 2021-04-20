@@ -16,6 +16,7 @@ import AddPackage from './components/Dashboard/AddPackage/AddPackage';
 import AddReview from './components/Dashboard/AddReview/AddReview';
 import PackageBook from './components/Dashboard/PackageBook/PackageBook';
 import PackageBookingList from './components/Dashboard/PackageBookingList/PackageBookingList';
+import OrderList from './components/Dashboard/OrderList/OrderList';
 
 export const UserContext = createContext();
 
@@ -43,6 +44,9 @@ function App() {
           </Route>
           <Route path="/bookingList">
            <PackageBookingList></PackageBookingList>
+          </Route>
+          <Route path="/orderlist">
+           <OrderList></OrderList>
           </Route>
           <Route path="/login">
             <Login></Login>

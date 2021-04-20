@@ -11,7 +11,7 @@ const PackageBookingList = () => {
     }
     const data = { email: decodedToken.email };
     useEffect(() => {
-        fetch('http://localhost:5000/getBookingList', {
+        fetch('http://localhost:5000/getBookingListByEmail', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

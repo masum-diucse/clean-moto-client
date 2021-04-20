@@ -8,7 +8,7 @@ const AdminSidebar = () => {
         <div className="sidebar d-flex flex-column justify-content-between py-5 px-4" style={{ height: "100vh" }}>
             <ul className="list-unstyled">
                 <li>
-                    <Link to="/dashboard/orderlist" className="text-white">
+                    <Link to="/orderlist" className="text-white">
                         <span><FontAwesomeIcon icon={faShoppingBag} />  Order List</span>
                     </Link>
                 </li>
