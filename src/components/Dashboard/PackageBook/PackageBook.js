@@ -6,12 +6,13 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import PackageCard from '../../Home/PackageCard/PackageCard';
 const PackageBook = () => {
+    document.title="Book";
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [packagesData, setPackagesData] = useState([]);
     const [isHome, setIsHome] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/getAllPackage')
+        fetch('https://secret-scrubland-36797.herokuapp.com/getAllPackage')
             .then(res => res.json())
             .then(data => setPackagesData(data))
     }, [])

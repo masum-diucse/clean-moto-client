@@ -26,7 +26,7 @@ const AddPackage = () => {
             packageDescription: data.packageDescription,
             packageImageURL: imageURL
         };
-        const url = 'http://localhost:5000/addPackage';
+        const url = 'https://secret-scrubland-36797.herokuapp.com/addPackage';
         fetch(url, {
             method: "POST",
             headers: { 'content-type': 'application/json' },

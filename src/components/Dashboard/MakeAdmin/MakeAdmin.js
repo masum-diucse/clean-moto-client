@@ -7,7 +7,7 @@ const MakeAdmin = () => {
     const { register, handleSubmit,formState: { errors } } = useForm();
     let history = useHistory();
     const onSubmit = data =>{        
-        fetch('http://localhost:5000/addAdminEmail',{
+        fetch('https://secret-scrubland-36797.herokuapp.com/addAdminEmail',{
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

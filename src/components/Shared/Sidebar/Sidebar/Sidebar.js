@@ -14,7 +14,7 @@ const Sidebar = () => {
        decodedToken = jwt_decode(token);
     }
     useEffect(()=>{
-        const url = 'http://localhost:5000/checkAdmin';
+        const url = 'https://secret-scrubland-36797.herokuapp.com/checkAdmin';
         fetch(url, {
             method: "POST",
             headers: { 'content-type': 'application/json' },

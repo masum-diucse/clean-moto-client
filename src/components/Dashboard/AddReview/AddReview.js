@@ -29,7 +29,7 @@ const AddReview = () => {
             reviewerMessage: data.reviewerMessage,
             reviewerImageURL: imageURL
         };
-        const url = 'http://localhost:5000/addReview';
+        const url = 'https://secret-scrubland-36797.herokuapp.com/addReview';
         fetch(url, {
             method: "POST",
             headers: { 'content-type': 'application/json' },

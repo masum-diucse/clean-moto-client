@@ -5,7 +5,7 @@ import OrderDataTable from '../OrderDataTable/OrderDataTable';
 const OrderList = () => {
     const [allBookings, setAllBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/getAllBookingList')
+        fetch('https://secret-scrubland-36797.herokuapp.com/getAllBookingList')
             .then(res => res.json())
             .then(data => setAllBookings(data));
     }, [])

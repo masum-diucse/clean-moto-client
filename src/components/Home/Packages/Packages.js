@@ -28,7 +28,7 @@ const Packages = () => {
     const [packagesData,setPackagesData]= useState([]);
     const [isHome,setIsHome]= useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/getAllPackage')
+        fetch('https://secret-scrubland-36797.herokuapp.com/getAllPackage')
         .then(res => res.json())
         .then(data=>setPackagesData(data))
     },[])

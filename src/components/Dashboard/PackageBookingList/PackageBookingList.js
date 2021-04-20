@@ -3,6 +3,7 @@ import Sidebar from '../../Shared/Sidebar/Sidebar/Sidebar';
 import jwt_decode from "jwt-decode";
 import PackageBookingCard from '../PackageBookingCard/PackageBookingCard';
 const PackageBookingList = () => {
+    document.title="Booking List";
     const [bookingsData, setBookingsData] = useState([]);
     const token = sessionStorage.getItem('token');
     let decodedToken;
@@ -11,7 +12,7 @@ const PackageBookingList = () => {
     }
     const data = { email: decodedToken.email };
     useEffect(() => {
-        fetch('http://localhost:5000/getBookingListByEmail', {
+        fetch('https://secret-scrubland-36797.herokuapp.com/getBookingListByEmail', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

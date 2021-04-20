@@ -1,11 +1,12 @@
 import React from 'react';
 
 const OrderDataTable = ({ orders }) => {
+    document.title="Order List"
     const handleSelection = (e, id) => {
         console.log(e.target.value);
         const status = { taskStatus: e.target.value };
         console.log(status);
-        fetch(`http://localhost:5000/updateBookingStatus/${id}`, {
+        fetch(`https://secret-scrubland-36797.herokuapp.com/updateBookingStatus/${id}`, {
             method: "PATCH",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(status)

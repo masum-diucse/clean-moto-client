@@ -3,7 +3,7 @@ import React from 'react';
 const TestimonialCard = ({ testimonial }) => {
     const { reviewerName, reviewerCompanyName, reviewerDesignation, reviewerMessage, reviewerImageURL } = testimonial;
     return (
-        <div className="col-lg-4 col-md-6 col-sm-12">
+        <div className="col-lg-4 col-md-6 col-sm-12 mt-5">
             <div className="card shadow-sm border-0 bg-transparent">
             <div className="card-header bg-transparent border-0 d-flex align-items-center mx-auto">
                     <img className="mx-3" src={reviewerImageURL} alt="" width="60" />

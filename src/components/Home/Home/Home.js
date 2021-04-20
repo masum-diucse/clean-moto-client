@@ -10,11 +10,7 @@ import Projects from '../Projects/Projects';
 import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
-    // const {user,admin} = useContext(UserContext);
-    // const [loggedInUser, setLoggedInUser]=user;
-    // const [isAdmin, setIsAdmin]=admin;
-    // setIsAdmin(true);
-    // console.log({isAdmin});
+    document.title="Clean Moto";
     return (
         <div>
             <TopBar></TopBar>
