@@ -1,6 +1,6 @@
 #Motor Wash Service
 > Website: https://clean-moto.web.app/
-> Server site : https://github.com/masum-diucse/clean-moto-server
+> Server site code : https://github.com/masum-diucse/clean-moto-server
  
 
 > Feature:
