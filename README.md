@@ -6,7 +6,7 @@ Full-stack car wash service website.
 >API Link: https://secret-scrubland-36797.herokuapp.com/
  
 
-> Feature:
+Feature:
 > Separate user interface for Customer / Admin dashboard detected by login credential.
 > 
 > Customers can place an order for a specific date, getting order status, post a review of the services.
