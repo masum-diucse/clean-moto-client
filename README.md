@@ -7,20 +7,8 @@ Full-stack car wash service website.
  
 
 > Feature:
-> SHow dynamic testimonial and package card in home page
+> Separate user interface for Customer / Admin dashboard detected by login credential.
 > 
-> Admin wise dashboard
+> Customers can place an order for a specific date, getting order status, post a review of the services.
 > 
-> Normal user wise dashboard
-> 
-> Add Booking
-> 
-> Showing Booking List
-> 
-> Add review
-> 
-> Booking status change
-> 
-> Make admin
-> 
-> Add Package> 
+> Admin can add new service, delete outdated service, update order status, add a new admin to the system and check who place the order from the admin dashboard.
