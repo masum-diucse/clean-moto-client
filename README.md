@@ -1,4 +1,5 @@
-Full-stack car wash service website.
+# Client Moto Website
+Complete MERN stack responsive website for Car Wash company who sells different types of services
 > Website: https://clean-moto.web.app/
 > 
 > Server site code : https://github.com/masum-diucse/clean-moto-server
