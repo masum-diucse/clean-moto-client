@@ -1,4 +1,4 @@
-## Client Moto Website
+## Clean Moto Website
 Complete MERN stack responsive website for Car Wash company who sells different types of services
 > Website: https://clean-moto.web.app/
 > 
